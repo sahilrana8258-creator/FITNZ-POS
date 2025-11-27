@@ -90,3 +90,4 @@ class MembershipPage(bs.Toplevel):
     def up(self, l):
         db.update_customer_membership(self.cust._customer_id, l)
         self.parent.update_customer_info(); self.destroy()
+
